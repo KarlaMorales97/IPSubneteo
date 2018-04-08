@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Font"
-    tools:context="com.hugopinto.subneteoip.MainActivity">
+    tools:context="com.morales.subneteoip.MainActivity">
 
  <LinearLayout
      android:layout_width="match_parent"
@@ -138,7 +138,7 @@
             android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Broadcast ID:"
@@ -147,7 +147,7 @@
             android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cantidad de IP:"
@@ -165,37 +165,10 @@
             android:textColor="@color/Letter"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
-
-        <TextView
-            android:layout_marginTop="25dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Parte de Host:"
-            android:layout_gravity="center_horizontal"
-            android:textSize="25sp"
-            android:textColor="@color/colorPrimaryDark"/>
-
-        <TextView
-            android:id="@+id/partehost"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Parte de Host"
-            android:layout_gravity="center_horizontal"
-            android:textSize="15sp"
-            android:textColor="@color/Letter"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:background="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
-
-
-
 
 
 
@@ -218,15 +191,15 @@
             android:textSize="15sp"
             android:textColor="@color/Letter"/>
         <View
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
 
         <TextView
             android:id="@+id/broadcast"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="45dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Broadcast ID:"
@@ -234,13 +207,14 @@
             android:textSize="15sp"
             android:textColor="@color/Letter"/>
         <View
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
+
         <TextView
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="38dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Parte de Red:"
@@ -258,7 +232,7 @@
             android:textColor="@color/Letter"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
@@ -268,5 +242,30 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parte de Host:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+    <TextView
+        android:id="@+id/partehost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Parte de Host"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="@color/Letter"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
 
 </LinearLayout>

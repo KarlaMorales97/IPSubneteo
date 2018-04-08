@@ -371,7 +371,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 32;
+                        b2 = n2 | 191;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 

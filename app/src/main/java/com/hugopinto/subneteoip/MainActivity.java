@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 64;
+                        b1 = n1 | 127;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 32;
+                        b1 = n1 | 63;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 16;
+                        b1 = n1 | 31;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 8;
+                        b1 = n1 | 15;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 4;
+                        b1 = n1 | 7;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -257,7 +257,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 2;
+                        b1 = n1 | 3;
                         b2 = n2 | 255;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
@@ -344,7 +344,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 64;
+                        b2 = n2 | 127;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -371,7 +371,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 191;
+                        b2 = n2 | 63;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -398,7 +398,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 16;
+                        b2 = n2 | 31;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -425,7 +425,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 8;
+                        b2 = n2 | 15;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -452,7 +452,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 4;
+                        b2 = n2 | 7;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -479,7 +479,7 @@ public class MainActivity extends AppCompatActivity {
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
                         b1 = n1 | 0;
-                        b2 = n2 | 2;
+                        b2 = n2 | 3;
                         b3 = n3 | 255;
                         b4 = n4 | 255;
 
@@ -561,7 +561,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 64;
+                        b3 = n3 | 127;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -588,7 +588,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 32;
+                        b3 = n3 | 63;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -615,7 +615,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 16;
+                        b3 = n3 | 31;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -642,7 +642,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 8;
+                        b3 = n3 | 15;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -669,7 +669,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 4;
+                        b3 = n3 | 7;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -696,7 +696,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b1 = n1 | 0;
                         b2 = n2 | 0;
-                        b3 = n3 | 2;
+                        b3 = n3 | 3;
                         b4 = n4 | 255;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
@@ -778,7 +778,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 64;
+                        b4 = n4 | 127;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -805,7 +805,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 32;
+                        b4 = n4 | 63;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -832,7 +832,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 16;
+                        b4 = n4 | 31;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -859,7 +859,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 8;
+                        b4 = n4 | 15;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -886,7 +886,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 4;
+                        b4 = n4 | 7;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -913,7 +913,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 2;
+                        b4 = n4 | 3;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -967,7 +967,7 @@ public class MainActivity extends AppCompatActivity {
                         b1 = n1 | 0;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
-                        b4 = n4 | 1;
+                        b4 = n4 | 0;
 
                         brdcst.setText(b1+"."+b2+"."+b3+"."+b4);
 
@@ -991,7 +991,7 @@ public class MainActivity extends AppCompatActivity {
 
                         ntid.setText(b1+"."+b2+"."+b3+"."+b4);
 
-                        b1 = n1 | 0;
+                        b1 = n1 | 15;
                         b2 = n2 | 0;
                         b3 = n3 | 0;
                         b4 = n4 | 0;
